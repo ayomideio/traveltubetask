@@ -6,6 +6,10 @@ PODS:
     - Flutter
   - integration_test (0.0.1):
     - Flutter
+  - MapLibre (5.14.0-pre3)
+  - maplibre_gl (0.0.1):
+    - Flutter
+    - MapLibre (= 5.14.0-pre3)
   - shake_gesture_ios (0.0.1):
     - Flutter
   - url_launcher_ios (0.0.1):
@@ -16,8 +20,13 @@ DEPENDENCIES:
   - Flutter (from `Flutter`)
   - geolocator_apple (from `.symlinks/plugins/geolocator_apple/ios`)
   - integration_test (from `.symlinks/plugins/integration_test/ios`)
+  - maplibre_gl (from `.symlinks/plugins/maplibre_gl/ios`)
   - shake_gesture_ios (from `.symlinks/plugins/shake_gesture_ios/ios`)
   - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
+
+SPEC REPOS:
+  trunk:
+    - MapLibre
 
 EXTERNAL SOURCES:
   device_region:
@@ -28,6 +37,8 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/geolocator_apple/ios"
   integration_test:
     :path: ".symlinks/plugins/integration_test/ios"
+  maplibre_gl:
+    :path: ".symlinks/plugins/maplibre_gl/ios"
   shake_gesture_ios:
     :path: ".symlinks/plugins/shake_gesture_ios/ios"
   url_launcher_ios:
@@ -38,9 +49,11 @@ SPEC CHECKSUMS:
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
   geolocator_apple: 9157311f654584b9bb72686c55fc02a97b73f461
   integration_test: 13825b8a9334a850581300559b8839134b124670
+  MapLibre: 620fc933c1d6029b33738c905c1490d024e5d4ef
+  maplibre_gl: a2efec727dd340e4c65e26d2b03b584f14881fd9
   shake_gesture_ios: 277117c0a4c8f5f6963fe97cd921051506c712d3
   url_launcher_ios: 6116280ddcfe98ab8820085d8d76ae7449447586
 
-PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+PODFILE CHECKSUM: 1959d098c91d8a792531a723c4a9d7e9f6a01e38
 
 COCOAPODS: 1.15.2

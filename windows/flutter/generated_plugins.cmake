@@ -4,7 +4,6 @@
 
 list(APPEND FLUTTER_PLUGIN_LIST
   device_region
-  geolocator_windows
   url_launcher_windows
 )
 
